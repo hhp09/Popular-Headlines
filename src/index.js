@@ -1,8 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import './css/bootstrap.min.css';
+//import './css/font-awesome.min.css';
+import './css/style.css';
+import WebFont from 'webfontloader';
+require('dotenv').config();
+
+console.log(process.env);
+
+
+WebFont.load({
+    google: {
+      families: ['Karla', 'Lato', 'Open Sans', 'Roboto', 'sans-serif']
+    }
+  });
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

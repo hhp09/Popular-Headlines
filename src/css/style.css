@@ -1,0 +1,14 @@
+
+
+.bg-inverse {
+  background-color: #000;
+}
+
+.card {
+    margin: 5px;
+}
+.card-text {
+  font-size: 12px;
+}
+
+
