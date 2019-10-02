@@ -29,4 +29,4 @@ Open development build on http://localhost:3000/
 Powered by NewsAPI!
 
 ### Full-Stack approach
-Possibly integrate a database and quick authentication for users. Enables features such as saving articles and picking preferred news sources to be displayed on home page. 
+Possibly integrate a database and quick authentication for users. Enables features such as bookmarking articles and picking preferred news sources to be displayed on home page. 
