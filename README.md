@@ -1,6 +1,6 @@
 # Popular Headlines 
 Bootstrapped with React and Node.js
-This app mainly serves as a quick demonstration of my React skills. It requires further  
+This app mainly serves as a quick demonstration of my React skills. Future updates to be rolled out!
 
 ## Usage
 Fork and download this repository, and conduct the following steps to run it locally on your machine:
