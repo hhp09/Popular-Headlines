@@ -33,20 +33,22 @@ class BrowseSelect extends Component {
         return (
             <div>
               <div className="row text-center">
-              <div className="col-lg-12">
-                <select value={this.state.value} onChange={this.onChange}>
-                    {
-                        Object.keys(allSources).map(paper => <option key={paper} value={allSources[paper].id}>{allSources[paper].name}</option>)
-                    }
-                </select>
+                <div className="col-lg-12">
+                    <select value={this.state.value} onChange={this.onChange}>
+                        {
+                            Object.keys(allSources).map(paper => <option key={paper} value={allSources[paper].id}>{allSources[paper].name}</option>)
+                        }
+                    </select>
                 </div>
               </div>
               <br />
               <br />
-              <div className="row">
+                <div className="row">
                     <br />
                     <br />
-                    <Output default={this.state.value} />
+                    <div className="col-lg-12">
+                        <Output default={this.state.value} />
+                    </div>
                     <br />
                 </div>
                 <br />

@@ -1,5 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import './Article.css';
+
 import {
     Card,
     CardImg,
@@ -14,23 +16,24 @@ const Article = (props) => {
     const { details } = props;
 
     return (
-       <div className = "card-block"> 
-        <Grid fluid>
-            <Row>
-                <Col xs={3} md={4}>
-
-                    <Card className="card-deck">
+       
+        
+       
+                
+                    <div className="col-lg-3 col-md-4 col-sm-6">
                             <CardImg top width="100%" src={details.urlToImage} alt="Image" />
                             <CardBody>
                                 <CardTitle>{details.title}</CardTitle>
                                 <CardText>{details.description}</CardText>
                                 <Button href={details.url} target="_blank">Read More</Button>
                             </CardBody>
-                    </Card>
-                </Col> 
-           </Row>  
-        </Grid>      
-       </div> 
+                    </div>
+
+             
+                
+          
+             
+       
     );
 };
 
