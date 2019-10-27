@@ -20,10 +20,9 @@ Open development build on http://localhost:3000/
 
 
 ### Future Updates
-* **Immediate Update: Use flexbox to upgrade native interface and fix grid layout error with bootstrap**
-* Search bar: Use **category** endpoint to futher improve article classification
-* Improve css styling of the page
-* Add published date/time with author of article in Card component
+[x] **Immediate Update: Use flexbox to upgrade native interface and fix grid layout error with bootstrap**
+[] Search bar: Use **category** endpoint to futher improve article classification
+[] Add published date/time with author of article in Card component
 
 ### For the sake of attribution
 Powered by NewsAPI!
