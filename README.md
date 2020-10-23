@@ -1,9 +1,9 @@
 # Popular Headlines 
 
-https://news-hhp.herokuapp.com
-
 Bootstrapped with React and Node.js
 This app mainly serves as a quick demonstration of my React skills. Future updates to be rolled out!
+
+![](popularHeadlines.gif)
 
 ## Usage
 Fork and download this repository, and conduct the following steps to run it locally on your machine:
